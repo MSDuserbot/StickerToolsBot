@@ -25,7 +25,7 @@ sᴇɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴀɴᴅ
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/AboutMK)
+            InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/AboutMK")
         ],
         [
             InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
