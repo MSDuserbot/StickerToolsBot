@@ -4,60 +4,67 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+ ʜᴇʏ[👋](https://telegra.ph/file/57873ee2279555866f4c9.jpg) {}
 
-Welcome to {}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
-You can use this bot to convert
-1) Sticker to Image
-2) Image to Sticker
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜᴜs ʙᴏᴛ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ
+1) sᴛɪᴄᴋᴇʀs ᴛᴏ ɪᴍᴀɢᴇ
+2) ɪᴍᴀɢᴇ ᴛᴏ sᴛɪᴄᴋᴇʀ
 
-Send Multiple images or stickers and it will work the same
+sᴇɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴡᴏʀᴋ ᴛʜᴇ sᴀᴍᴇ.
 
-By @StarkBots
+ʙʏ @StarkBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")
+            InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/StarkBots/7")
         ],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/StarkBotsChat")],
     ]
 
     # Help Message
     HELP = """
-You Really Need Help ?!?!?!?!
+ʏᴏᴜ ʀᴇᴀʟʟʏ ɴᴇᴇᴅ ʜᴇʟᴘ ?!?!?!?!
 
-1) Send Sticker to get Image
-2) Send Image to get Sticker
+1) Sᴇɴᴅ Sᴛɪᴄᴋᴇʀ ᴛᴏ ɢᴇᴛ ɪᴍᴀɢᴇ
+2) Sᴇɴᴅ ɪᴍᴀɢᴇ ᴛᴏ ɢᴇᴛ Sᴛɪᴄᴋᴇʀ
 
-Note : You can send any amount of images or stickers or both together at once and it will work with same speed and accuracy.
+ɴᴏᴛᴇ : ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ᴏғ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴏʀ ʙᴏᴛʜ ᴛᴏɢᴇᴛʜᴇʀ ᴀᴛ ᴏɴᴄᴇ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴡᴏʀᴋ ᴡɪᴛʜ sᴀᴍᴇ sᴘᴇᴇᴅ ᴀɴᴅ ᴀᴄᴄᴜʀᴀᴄʏ.
 
-More features in development. Keep track by joining @StarkBots.
+ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ. ᴋᴇᴇᴘ ᴛʀᴀᴄᴋ ʙʏ ᴊᴏɪɴɪɴɢ in development. Keep track by joining @StarkBots.
     """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ** 
 
-Bot created by @StarkBots
+ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StickerToolsBot)
+Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/StarkBotsIndustries/StickerToolsBot)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](www.python.org)
 
-Developer : @StarkProgrammer
+ᴅᴇᴠʟᴏᴘᴇʀ : @StarkProgrammer
+
+Sᴜᴘᴘᴏʀᴛ : [ᴛᴀᴍɪʟ sᴜᴘᴘᴏʀᴛ]
+
+ᴜᴘᴅᴀᴛᴇs : [ᴛᴀᴍɪʟʙᴏᴛs]
+
+
+
     """
