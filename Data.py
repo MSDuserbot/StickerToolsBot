@@ -14,25 +14,25 @@ class Data:
 
 sᴇɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴡᴏʀᴋ ᴛʜᴇ sᴀᴍᴇ.
 
-ʙʏ @StarkBots
+ʙʏ @TamilBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="https://t.me/Tamilbots")],
         [InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/StarkBots/7")
+            InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/AboutMK)
         ],
         [
             InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TamilBots")],
+        [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/TamilSupport")],
     ]
 
     # Help Message
@@ -44,26 +44,26 @@ sᴇɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴀɴᴅ
 
 ɴᴏᴛᴇ : ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ᴏғ ɪᴍᴀɢᴇs ᴏʀ sᴛɪᴄᴋᴇʀs ᴏʀ ʙᴏᴛʜ ᴛᴏɢᴇᴛʜᴇʀ ᴀᴛ ᴏɴᴄᴇ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴡᴏʀᴋ ᴡɪᴛʜ sᴀᴍᴇ sᴘᴇᴇᴅ ᴀɴᴅ ᴀᴄᴄᴜʀᴀᴄʏ.
 
-ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ. ᴋᴇᴇᴘ ᴛʀᴀᴄᴋ ʙʏ ᴊᴏɪɴɪɴɢ in development. Keep track by joining @StarkBots.
+ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ. ᴋᴇᴇᴘ ᴛʀᴀᴄᴋ ʙʏ ᴊᴏɪɴɪɴɢ ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ. ᴋᴇᴇᴘ ᴛʀᴀᴄᴋ ʙʏ ᴊᴏɪɴɪɴɢ @TamilBots.
     """
 
     # About Message
     ABOUT = """
 **ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ** 
 
-ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @StarkBots
+ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @TamilBots
 
-Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/StarkBotsIndustries/StickerToolsBot)
+Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/IamBluedragon)
 
 ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](docs.pyrogram.org)
 
 ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](www.python.org)
 
-ᴅᴇᴠʟᴏᴘᴇʀ : @StarkProgrammer
+ᴅᴇᴠʟᴏᴘᴇʀ : [MSD](https://t.me/Aboutmk)
 
-Sᴜᴘᴘᴏʀᴛ : [ᴛᴀᴍɪʟ sᴜᴘᴘᴏʀᴛ]
+Sᴜᴘᴘᴏʀᴛ : [ᴛᴀᴍɪʟ sᴜᴘᴘᴏʀᴛ](t.me/tamilsupport)
 
-ᴜᴘᴅᴀᴛᴇs : [ᴛᴀᴍɪʟʙᴏᴛs]
+ᴜᴘᴅᴀᴛᴇs : [ᴛᴀᴍɪʟʙᴏᴛs](t.me/tamilbots)
 
 
 
